@@ -17,7 +17,6 @@ public class UserController {
     @PostMapping("/api/users")
     public User createUser(@RequestBody User user){
         return userRepository.save(user);
-
     }
 
     @GetMapping("/api/users")
