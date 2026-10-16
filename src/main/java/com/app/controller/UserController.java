@@ -22,6 +22,7 @@ public class UserController {
 
     @GetMapping("/api/users")
     public User getUser(){
+
         User user = new User();
         user.setEmail("marian1996silva@gmail.com");
         user.setFullName("Marian Silva");
