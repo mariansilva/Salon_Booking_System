@@ -47,7 +47,6 @@ public class UserController {
       existingUser.setRole(user.getRole());
 
       return userRepository.save(existingUser);
-
     }
 
     @DeleteMapping("/api/users/{id}")
