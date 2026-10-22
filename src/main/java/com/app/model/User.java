@@ -18,6 +18,7 @@ public class User {
     private Long id;
 
     private String fullName;
+
     @NotBlank(message = "email is mandatory")
     @Email(message = "email should be valid")
     private String email;
