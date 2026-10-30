@@ -1,5 +1,6 @@
 package com.app.controller;
 
+import com.app.exception.UserException;
 import com.app.model.User;
 import com.app.repository.UserRepository;
 import jakarta.validation.Valid;
@@ -33,7 +34,7 @@ public class UserController {
         if (otp.isPresent()) {
            return otp.get();
         }
-        throw  new Exception("user not found");
+        throw  new UserException("user not found");
     }
 
     @PutMapping("api/users/{id}")
