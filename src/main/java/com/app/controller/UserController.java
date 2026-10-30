@@ -34,7 +34,7 @@ public class UserController {
         if (otp.isPresent()) {
            return otp.get();
         }
-        throw  new UserException("user not found");
+        throw new UserException("user not found");
     }
 
     @PutMapping("api/users/{id}")
