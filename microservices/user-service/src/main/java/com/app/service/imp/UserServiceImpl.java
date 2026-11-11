@@ -40,7 +40,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void deleteUser(Long id) throws Exception {
         Optional<User> otp=userRepository.findById(id);
-        if(otp.isEmpty()){
+        if(!otp.isPresent()){
             throw new Exception("User not found with id"+id);
         }
         userRepository.deleteById(otp.get().getId());
@@ -52,7 +52,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User updateUser(Long id, User user) throws Exception {
         Optional<User> otp=userRepository.findById(id);
-        if(otp.isEmpty()){
+        if(!otp.isPresent()){
             throw new Exception("User not found with id"+id);
         }
         User existingUser=otp.get();
