@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3c1223-0476-499e-acb9-ed0edf8bbd0a" name="Changes" comment="minor change">
-      <change afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/model/Salon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/payload/dto/SalonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/payload/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/repository/SalonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/service/SalonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/service/impl/SalonServiceImpl.java" afterDir="false" />
+    <list default="true" id="db3c1223-0476-499e-acb9-ed0edf8bbd0a" name="Changes" comment="Added Controller, model, service,payload, repository packages to salon service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/salon-service/${project.build.directory}/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/salon-service/${project.build.directory}/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/salon-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/salon-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/salon-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/UserServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/exception/UserException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/payload/response/ExceptionResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/user-service/${project.build.directory}/classes/com/app/service/imp/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/repository/SalonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/repository/SalonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/service/SalonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/service/SalonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/service/impl/SalonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/salon-service/src/main/java/com/app/salon/service/service/impl/SalonServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +40,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/mariansilva/Salon_Booking_System.git&quot;,
     &quot;accountId&quot;: &quot;42cb60b7-1e71-4637-9de5-9e049ad105ed&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;mariansilva&quot;,
+    &quot;repository&quot;: &quot;Salon_Booking_System&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -160,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793619779790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Controller, model, service,payload, repository packages to salon service">
+      <option name="closed" value="true" />
+      <created>1794374284934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794374284934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="minor change" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor change" />
+    <MESSAGE value="Added Controller, model, service,payload, repository packages to salon service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Controller, model, service,payload, repository packages to salon service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
